@@ -1,6 +1,9 @@
 # Chinese-chatbot
 中文智能聊天机器人
 
+### 开源框架rasa 安装
+pip3 install rasa
+
 ### 机器人训练模型
 rasa train
 
