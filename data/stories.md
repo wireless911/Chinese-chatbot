@@ -1,0 +1,103 @@
+
+## intent:greetings
+* greetings
+  - utter_greetings
+## intent:bye
+* bye
+  - utter_bye
+## intent:thanks
+* thanks
+  - utter_thanks
+## intent:complaint_filing
+* complaint_filing
+  - utter_complaint_filing
+## intent:joint_agent_query
+* joint_agent_query
+  - utter_joint_agent_query
+## intent:order_query
+* order_query
+  - utter_order_query
+## intent:order_cancel
+* order_cancel
+  - utter_order_cancel
+## intent:order_transfer
+* order_transfer
+  - utter_order_transfer
+## intent:order_return
+* order_return
+  - utter_order_return
+## intent:members_register
+* members_register
+  - utter_members_register
+## intent:members_login
+* members_login
+  - utter_members_login
+## intent:members_query
+* members_query
+  - utter_members_query
+## intent:members_lvl_expiration
+* members_lvl_expiration
+  - utter_members_lvl_expiration
+## intent:members_rights
+* members_rights
+  - utter_members_rights
+## intent:members_promotion
+* members_promotion
+  - utter_members_promotion
+## intent:members_info_update
+* members_info_update
+  - utter_members_info_update
+## intent:members_bind
+* members_bind
+  - utter_members_bind
+## intent:available_points_query
+* available_points_query
+  - utter_available_points_query
+## intent:expiring_soon_points
+* expiring_soon_points
+  - utter_expiring_soon_points
+## intent:gift_redemption_method
+* gift_redemption_method
+  - utter_gift_redemption_method
+## intent:gift_redemption_transfer
+* gift_redemption_transfer
+  - utter_gift_redemption_transfer
+## intent:stores_query
+* stores_query
+  - utter_stores_query
+## intent:certified_source_query
+* certified_source_query
+  - utter_certified_source_query
+## intent:activity_consultation
+* activity_consultation
+  - utter_activity_consultation
+## intent:lettering_service
+* lettering_service
+  - utter_lettering_service
+## intent:promotion_code
+* promotion_code
+  - utter_promotion_code
+## intent:product_capacity
+* product_capacity
+  - utter_product_capacity
+## intent:product_description
+* product_description
+  - utter_product_description
+## intent:product_nav
+* product_nav
+  - utter_product_nav
+## intent:product_price
+* product_price
+  - utter_product_price
+## intent:special_group_query
+* special_group_query
+  - utter_special_group_query
+## intent:gift_recommendation
+* gift_recommendation
+  - utter_gift_recommendation
+## intent:express_store_hose
+* express_store_hose
+  - utter_express_store_hose
+## intent:order_info_update
+* order_info_update
+  - utter_order_info_update

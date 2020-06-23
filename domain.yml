@@ -1,0 +1,68 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- unhappy
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- certified_source_query
+- transfer_query
+- complaint_filing
+- special_group_query
+- thanks
+- faq
+- stores_query
+- activity_consultation
+- faq/ask_languages
+- faq/ask_rasax
+- faq/ask_channels
+responses:
+  utter_greetings:
+  - text: 你好啊，我是你的专属人工智能客服
+  utter_bye:
+  - text: 拜拜
+  - text: 好的，再见啦
+  utter_thanks:
+  - text: 不用客气哦
+  - text: 不用谢呢
+  utter_complaint_filing:
+  - text: 对不起啦，没有帮到你
+  utter_order_query:
+  - text: 订单查询
+  utter_order_cancel:
+  - text: 订单取消
+  utter_order_transfer:
+  - text: 物流查询
+  utter_order_return:
+  - text: 退货
+  utter_members_register:
+  - text: 会员注册
+  utter_members_login:
+  - text: 会员登陆
+  utter_members_query:
+  - text: 会员查询
+  utter_members_lvl_expiration:
+  - text: 会员等级过期
+  utter_members_rights:
+  - text: 会员福利
+
+actions:
+- utter_greetings
+- utter_bye
+- utter_thanks
+- utter_complaint_filing
+- utter_order_query
+- utter_order_cancel
+- utter_transfer_query
+- utter_order_transfer
+- utter_order_return
+- utter_members_register
+- utter_members_login
+- utter_members_query
+- utter_members_lvl_expiration
+- utter_members_rights
